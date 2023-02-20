@@ -4,3 +4,25 @@ body{
   padding: 0%;
   font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.box-head{
+  padding: 16px 0;
+}
+
+.debug header{
+  background-color: #add8e6;
+}
+
+.debug .header-top{
+  background-color: #daa520;
+}
+
+.debug .pink-box{
+  background-color: #ee82ee;
+  border: 2px dashed black;
+}
