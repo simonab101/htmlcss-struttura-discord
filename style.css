@@ -10,6 +10,7 @@ body{
   margin: auto;
 }
 
+/* contenitore 1*/
 .box-head{
   padding: 16px 0;
 }
@@ -22,7 +23,20 @@ body{
   background-color: #daa520;
 }
 
+/* contenitore 2*/
 .debug .pink-box{
   background-color: #ee82ee;
   border: 2px dashed black;
 }
+
+/* contenitore 3*/
+.debug .col-big{
+  background-color: #1e90ff;
+  border: 2px dashed black;
+}
+
+.debug .col-small{
+  background-color: #ffc0cb;
+  border: 2px dashed black;
+}
+
