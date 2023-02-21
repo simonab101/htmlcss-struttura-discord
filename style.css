@@ -109,3 +109,20 @@ body{
   padding: 40px 0;
   width: 100%;
 }
+
+/* contenitore 5*/
+.row{
+  display: flex;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.box-green{
+  width: 1000%;
+  height: 900px;
+}
+
+.debug .box-green{
+  background-color: green;
+  border: 2px dashed black;
+}
