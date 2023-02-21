@@ -15,6 +15,12 @@ body{
   padding: 16px 0;
 }
 
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .debug header{
   background-color: #add8e6;
 }
@@ -23,7 +29,33 @@ body{
   background-color: #daa520;
 }
 
+.logo{
+  width: 20%;
+  padding: 5px;
+  border: 2px dashed black;
+}
+
+.link{
+  width: 60%;
+  text-align: center;
+  padding: 5px;
+  border: 2px dashed black;
+}
+
+.login{
+  width: 20%;
+  padding: 5px;
+  text-align: right;
+  border: 2px dashed black;
+}
+
+
 /* contenitore 2*/
+.sub-header{
+  background-color: #00008b;
+  padding: 40px;
+}
+
 .debug .pink-box{
   background-color: #ee82ee;
   border: 2px dashed black;
@@ -45,8 +77,35 @@ body{
   background-color: lightgrey;
 }
 
-.box-green{
-  width: 1000%;
-  height: 900px;
+.row{
+  display: flex;
+  padding: 40px 0;
+  width: 100%;
 }
 
+/* contenitore 5*/
+.debug .col-big{
+  background-color: #1e90ff;
+  border: 2px dashed black;
+}
+
+.debug .col-small{
+  background-color: #ffc0cb;
+  border: 2px dashed black;
+}
+
+.col-big{
+  width: 60%;
+  height: 450px;
+}
+
+.col-small{
+  width: 40%;
+  height: 450px;
+}
+
+.row{
+  display: flex;
+  padding: 40px 0;
+  width: 100%;
+}
